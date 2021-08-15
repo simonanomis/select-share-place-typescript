@@ -1,7 +1,7 @@
 {
-  "name": "understanding-typescript",
+  "name": "select-share-place-typescript",
   "version": "1.0.0",
-  "description": "Understanding TypeScript Course Setup",
+  "description": "Select and Share a Place App",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,7 +11,7 @@
     "typescript",
     "course"
   ],
-  "author": "Maximilian Schwarzmüller",
+  "author": "Simona Ristovska",
   "license": "ISC",
   "devDependencies": {
     "ts-loader": "^6.2.1",
@@ -20,5 +20,7 @@
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.9.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
 }
